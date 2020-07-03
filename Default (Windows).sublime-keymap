@@ -1,0 +1,6 @@
+[
+	{ "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+alt+o"], "command": "open"},
+    { "keys": ["ctrl+alt+e"], "command": "escape"}
+]

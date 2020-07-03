@@ -1,0 +1,16 @@
+[
+  {
+    "id": "EasyWinPath",
+    "caption": "EasyWinPath",
+    "children": [
+        {
+            "caption": "Open path in explorer",
+            "command": "open"
+        },
+        {
+            "caption": "Escape/unscape path",
+            "command": "escape"
+        }
+    ]
+  }
+]

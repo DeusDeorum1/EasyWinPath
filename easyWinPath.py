@@ -3,16 +3,12 @@ import sublime_plugin
 import subprocess
 import os
 
-print("EasyWinPath plugin loaded")
-
 
 class OpenCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         for region in self.view.sel():
             if not region.empty():
                 s = self.view.substr(region)
-                # s = s.replace('\\\\', "\\")
-                # self.view.replace(region, s)
                 print("Will open {0}".format(s))
                 os.startfile(s)
             if region.empty():
